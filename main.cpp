@@ -16,7 +16,7 @@ using namespace std;
 //      - find specifc items in order to complete phrase
 
 int main(){
-    Board board(30,10,3);
+    Board board(10,10,3);
     board.disp();
     return 0;
 }
