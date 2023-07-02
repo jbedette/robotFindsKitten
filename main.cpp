@@ -10,8 +10,9 @@ using namespace std;
 
 //todo
 // 1. robot class and movement rules
-// 2. random colors for targets
-// 3. random phrase yell
+//  -take keyboard input
+// 2. items
+//  - 
 // 4. fortune cookie saying completion game
 //      - find specifc items in order to complete phrase
 
