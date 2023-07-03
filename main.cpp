@@ -3,10 +3,11 @@
 #include "Board.h"
 using namespace std;
 
-//work done 6/28
-// 1. board of variable size generates with boundaries
-// 2. items are generated on the board with random ascii
-// 3. except # which is reserved for robot
+//items work:
+// - make phrase list
+// - import phrase
+// - create items with phrases
+// - make collecting certain items in order a win condition
 
 //todo
 // 1. robot class and movement rules

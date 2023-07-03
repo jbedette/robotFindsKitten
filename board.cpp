@@ -35,6 +35,28 @@ void Board::disp(){
 }
 
 int Board::genItems(int num){
+
+    vector<string> fortunes;
+    vector<string> itemTexts;
+    string text;
+    ifstream readFortunes("fortunes.txt");
+    while (getline(readFortunes, text)){
+        cout << text;
+        fortunes.push_back(text);
+    }
+    readFortunes.close();
+    ifstream readFile("item.txt");
+    while (getline(readFile, text)){
+        itemTexts.push_back(text);
+    };
+    readFile.close();
+    for(int i = 0; i < fortunes.size();++i){
+        cout << fortunes[i] << '\n';
+    }
+    for(int i = 0; i < itemTexts.size();++i){
+        cout << itemTexts[i] << '\n';
+    }
+///
     int count = 0;
     while(num >= 0){
         ++count;
